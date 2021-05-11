@@ -4,14 +4,17 @@
 body { 
     margin: 0;
     overflow: hidden; /* Hide scrollbars */ 
-    position: relative;
+    
 }
 .content{
     height: 100vh;
+    position: relative;
+    /* background-color: tomato; */
 }
 
 .home-container{
     margin: 0 200px;
+    
 }
 .header{
     height: 50px;
@@ -75,14 +78,10 @@ height: 190px;
 
 .icons{
     position: absolute;
-    display: inline block;
     width: 14px;
     height:26px;
-    top: 536px;
-    right :210px;
-}
-.icons{
-    fill: white;
+    bottom: 177px;
+    right :235px;
 }
 .circle {
     width: 1020px;
