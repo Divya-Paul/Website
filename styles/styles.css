@@ -54,7 +54,7 @@ z-index: -1;
 color: #120644;
 font-size: 80px;
 width: 213px;
-height: 190px;
+height: 150px;
 }
 .main-name > h3{
     color: #000000;
@@ -78,6 +78,7 @@ height: 190px;
 
 .icons{
     position: absolute;
+    color:#FFFFFF;
     width: 14px;
     height:26px;
     bottom: 177px;
