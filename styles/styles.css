@@ -1,6 +1,11 @@
 *{
     font-family: 'Rubik', sans-serif;
 }
+:root{
+    --primary-color:#7562E0;
+    --secondary-color:#A696FF;
+    --parent-color:#120644;
+}
 body { 
     margin: 0;
     overflow: hidden; /* Hide scrollbars */ 
@@ -25,24 +30,24 @@ body {
 .heading{
     margin: 0;
     font-size: 24px;
-    color:#7562E0;
+    color:var(--primary-color);
 }
 .links > a{
-text-decoration: none;
-font-size: 16px;
-color: #000000;
-margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    margin: 20px;
 }
 /* mouse over link */
 .links > a:hover {
     color: red;
 }
 .Divya-image{
-width: 500px;
-position: absolute;
-right: 228px;
-bottom: 0;
-z-index: -1;
+    width: 500px;
+    position: absolute;
+    right: 228px;
+    bottom: 0;
+    z-index: -1;
 }
 .second-block{
     display:flex;
@@ -51,10 +56,10 @@ z-index: -1;
 }
 
 .main-name > h1 {
-color: #120644;
-font-size: 80px;
-width: 213px;
-height: 150px;
+    color: var(--parent-color);
+    font-size: 80px;
+    width: 213px;
+    height: 150px;
 }
 .main-name > h3{
     color: #000000;
@@ -64,7 +69,7 @@ height: 150px;
 }
 .button{
     text-decoration: none;
-    background-color: #7562E0;
+    background-color: var(--primary-color);
     color: #FFFFFF;
     padding: 16px 48px;
     display: inline-block;
@@ -87,7 +92,7 @@ height: 150px;
 .circle {
     width: 1020px;
     height: 1020px;
-    background-color: #A696FF;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     z-index: -2;
 }
