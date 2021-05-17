@@ -61,38 +61,35 @@ body {
 }
 
 .second-block {
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .main-name > h1 {
   color: var(--parent-color);
   font-size: var(--font-size-lg);
+  font-weight: 500;
+  line-height: 89px;
   width: 213px;
-  height: 150px;
+  height: 106px;
 }
 
 .main-name > h3 {
   color: #000000;
   font-size: 18px;
+  font-weight: 400;
   width: 237px;
-  height: 42px;
+  height: 50px;
 }
 
 .button {
   text-decoration: none;
+  font-weight: 500;
   background-color: var(--primary-color);
   color: #ffffff;
   padding: 16px 48px;
   display: inline-block;
-}
-
-.main-name {
-  position: absolute;
-  font-style: normal;
-  bottom: 25%;
-  right: 68%;
 }
 
 .icons {
