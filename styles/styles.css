@@ -419,6 +419,7 @@ body {
 .contact {
   font-size: var(--font-size-sl);
   background-color: transparent;
+  border: #ffffff solid;
   color: #ffffff;
   padding: 12px 12px;
   position: absolute;
