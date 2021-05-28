@@ -6,7 +6,7 @@
   --primary-color: #7562e0;
   --secondary-color: #a696ff;
   --parent-color: #120644;
-  --Tile-color: #f5f5f6;
+  --tile-color: #f5f5f6;
   --final-color: #4b4567;
   font-size: 10px;
   --font-size-sl: 1.6rem;
@@ -25,7 +25,6 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
-  /* background-color: crimson; */
 }
 
 .home-container {
@@ -52,12 +51,11 @@ body {
   margin: 20px;
 }
 
-/* mouse over link */
 .links > a:hover {
   color: red;
 }
 
-.Divya-image {
+.divya-image {
   width: 40%;
   position: absolute;
   right: 22%;
@@ -137,16 +135,14 @@ body {
   top: 242px;
 }
 
-.Overview-container {
+.overview-container {
   height: 120vh;
   width: 100%;
   position: relative;
-  /* background-color: blue; */
 }
 
-.Experience {
+.experience {
   margin: 0 200px;
-  /* background-color: darkmagenta; */
 }
 
 .exp {
@@ -154,7 +150,7 @@ body {
   width: 149px;
 }
 
-.Exp > h1 {
+.exp > h1 {
   font-size: var(--font-size-xl);
   color: var(--primary-color);
   font-style: normal;
@@ -164,14 +160,14 @@ body {
   margin-bottom: 57px;
 }
 
-.Exp > h3 {
+.exp > h3 {
   font-size: var(--font-size-md);
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
 }
 
-.Box {
+.box {
   display: flex;
   flex-direction: row;
   column-gap: 15px;
@@ -181,7 +177,7 @@ body {
 .box1 {
   height: 310px;
   width: 270px;
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   padding: 20px;
   box-sizing: border-box;
 }
@@ -197,7 +193,7 @@ body {
 .box2 {
   height: 310px;
   width: 270px;
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   padding: 20px;
   box-sizing: border-box;
 }
@@ -213,7 +209,7 @@ body {
 .box3 {
   height: 310px;
   width: 270px;
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   padding: 20px;
   box-sizing: border-box;
 }
@@ -226,7 +222,7 @@ body {
   justify-content: flex-end;
 }
 
-.Background-image {
+.background-image {
   height: 30%;
   width: 64%;
   position: absolute;
@@ -234,14 +230,12 @@ body {
   bottom: 12%;
 }
 
-.Final {
+.final {
   height: 100vh;
   width: 100%;
-
-  /* background-color: aqua; */
 }
 
-.Details {
+.details {
   margin: 0 200px;
 }
 
@@ -260,7 +254,7 @@ body {
   flex-direction: column;
 }
 .expTiles1 {
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -274,71 +268,11 @@ body {
   font-weight: 500;
 }
 
-.expTiles2 {
-  background-color: var(--Tile-color);
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  width: 543px;
-  height: 117px;
-  margin: 10px 0;
-}
-.expTiles2 > p {
-  color: #000000;
-  font-size: var(--font-size-md);
-  font-weight: 500;
-}
-
-.expTiles3 {
-  background-color: var(--Tile-color);
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  width: 543px;
-  height: 117px;
-  margin: 10px 0;
-}
-.expTiles3 > p {
-  color: #000000;
-  font-size: var(--font-size-md);
-  font-weight: 500;
-}
-
-.expTiles4 {
-  background-color: var(--Tile-color);
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  width: 543px;
-  height: 117px;
-  margin: 10px 0;
-}
-.expTiles4 > p {
-  color: #000000;
-  font-size: var(--font-size-md);
-  font-weight: 500;
-}
-
-.expTiles5 {
-  background-color: var(--Tile-color);
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  width: 543px;
-  height: 117px;
-  margin: 10px 0;
-}
-.expTiles5 > p {
-  color: #000000;
-  font-size: var(--font-size-md);
-  font-weight: 500;
-}
-
 .expPic {
   width: 527px;
   position: absolute;
   right: -174px;
-  bottom: 210px;
+  bottom: 0;
 }
 
 .edudata > h1 {
@@ -360,7 +294,7 @@ body {
 }
 
 .eduTile1 {
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -376,7 +310,7 @@ body {
 }
 
 .eduTile2 {
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -392,7 +326,39 @@ body {
 }
 
 .eduTile3 {
-  background-color: var(--Tile-color);
+  background-color: var(--tile-color);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 543px;
+  height: 117px;
+  margin: 10px 0;
+}
+
+.eduTile4 > p {
+  color: #000000;
+  font-size: var(--font-size-md);
+  font-weight: 500;
+}
+
+.eduTile4 {
+  background-color: var(--tile-color);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 543px;
+  height: 117px;
+  margin: 10px 0;
+}
+
+.eduTile5 > p {
+  color: #000000;
+  font-size: var(--font-size-md);
+  font-weight: 500;
+}
+
+.eduTile5 {
+  background-color: var(--tile-color);
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -404,16 +370,16 @@ body {
 .eduPic {
   width: 527px;
   position: absolute;
-  right: 10px;
-  bottom: -2460px;
+  right: 60px;
+  bottom: -2073px;
 }
 
-.Rectangle {
-  width: 1350px;
-  height: 434px;
+.rectangle {
+  width: 100%;
+  height: 430px;
   background-color: var(--secondary-color);
   position: absolute;
-  bottom: -2915px;
+  bottom: -2586px;
 }
 
 .contact {
